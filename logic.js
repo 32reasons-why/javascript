@@ -11,3 +11,8 @@ if(res >= 85){
 }else{
     console.log("Did not write")
 }
+
+for (res= 0; res > 7; res++) {
+    ;
+    console.log("Distinction")
+}
