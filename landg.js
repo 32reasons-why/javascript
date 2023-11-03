@@ -9,4 +9,13 @@ function fun(){
 
 console.log(globalv);
 
+
+
+if(2>4){
+
+    console.log("ys")
+}else{
+    console.log("ff")
+}
+
 //fun();
