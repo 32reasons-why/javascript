@@ -1,9 +1,14 @@
 let courses = ["Anguler", "Javascript", "Html", "Java"];
 
-//let lnrs = new Array(8);
+let devops = "";
 
-for(let i = 0; i < courses.length; i++){
+courses.push("C++")
 
-    courses[i] = i;
+for(let i = 0; i < courses.length; ){
+
+    devops = devops + courses[i] + ' ' ;
+
     console.log(courses[i]);
+
+    i++
 }
