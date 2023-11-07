@@ -14,6 +14,7 @@ const Student ={
         return [this.firstName, this.Age];
     },
 
+    
     set setName(name){
         this.name = name;
     }
