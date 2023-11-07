@@ -23,5 +23,5 @@ switch(i){
 
     default:
 
-    q    console.log("i is greater than 2.");
+     console.log("i is greater than 2.");
 }
