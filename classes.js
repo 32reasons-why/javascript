@@ -1,11 +1,15 @@
-class n{
-    //let n;
-    //let m; = 9
-    constructor(){
+export class Vehicle{
+
+    constructor(brand, make, engine){
+
+        this.brand = brand;
+        this.make = make;
+        this.engine = engine;
 
     }
 
-    constructor(n, m){
-        this.n = n;
-    }
+
 }
+
+//et car = new Vehicle("volkswagen", "Jetta", "VR6");
+
